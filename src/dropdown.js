@@ -1,4 +1,4 @@
-export default function dropDown() {
+export default function dropDownFunc() {
   function dropdownManipulation(event) {
     const dropDownContainer = document.querySelector(".dropdown-container");
     const dropDownIcon = document.querySelector(".hamburger");
@@ -15,7 +15,7 @@ export default function dropDown() {
 
     if (dropDownBtn) {
       const dropDown = event.target.closest(".dropdown");
-      const dropDownMenu = dropDown.childNodes[3];
+      const dropDownMenu = dropDown.childNodes[1];
       dropDownMenu.classList.toggle("display");
       currentDropDownMenu = dropDownMenu;
     }

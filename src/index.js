@@ -1,6 +1,6 @@
 import "./main.css";
 import hamburgerImage from "./assets/dropdown-svgrepo-com.svg";
-import dropdown from "./dropdown";
+import dropDownFunc from "./dropdown";
 
 const hamburgerIcon = new Image();
 hamburgerIcon.classList.add("hamburger-icon");
@@ -17,4 +17,4 @@ hamburgerIcon.addEventListener("click", () => {
   hamburger.classList.toggle("toggled");
 });
 
-dropdown();
+dropDownFunc();
